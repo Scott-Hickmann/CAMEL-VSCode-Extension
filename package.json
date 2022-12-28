@@ -1,0 +1,32 @@
+{
+  "name": "camel",
+  "displayName": "CAMEL",
+  "description": "CAMEL Syntax Highlighting",
+  "publisher": "ChAIR",
+  "icon": "images/icon.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "camel",
+      "aliases": ["CAMEL", "camel"],
+      "extensions": [".camel"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "camel",
+      "scopeName": "source.camel",
+      "path": "./syntaxes/camel.tmLanguage"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Scott-Hickmann/CAMEL-VSCode-Extension.git"
+  },
+  "homepage": "https://github.com/Scott-Hickmann/CAMEL-VSCode-Extension/README.md"
+}
